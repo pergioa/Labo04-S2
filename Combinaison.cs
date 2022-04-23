@@ -11,9 +11,9 @@ namespace lab04
             : base(msg) { }
         }
 
-        class CombinaisonImopossibleÀConstruir : Exception
+        class CombinaisonImpossibleÀConstruireException : Exception
         {
-            public CombinaisonImopossibleÀConstruir(string msg)
+            public CombinaisonImpossibleÀConstruireException(string msg)
             : base(msg) { }
         }
         public int NbNombres { get; private set; }
@@ -28,7 +28,7 @@ namespace lab04
                 throw new MaxPlusPetitQueMinException("La borne max doit être extrictement plus grande que la borne min");
 
             if (nbNombres > max)
-                throw new CombinaisonImopossibleÀConstruir("La combinaison ne peut pas être consistruite sans avoir des repetitions d'éléments");
+                throw new CombinaisonImpossibleÀConstruireException("La combinaison ne peut pas être consistruite, le nombre d'éléments n'est pas entre le minimum et maximum");
 
             NbNombres = nbNombres;
             Min = min;
