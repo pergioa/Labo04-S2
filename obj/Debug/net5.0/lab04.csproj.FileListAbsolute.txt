@@ -1,0 +1,16 @@
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04.deps.json
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04.runtimeconfig.json
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04.runtimeconfig.dev.json
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04.dll
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/ref/lab04.dll
+/home/tito/projets/Labo04-S2/bin/Debug/net5.0/lab04.pdb
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.csproj.AssemblyReference.cache
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.GeneratedMSBuildEditorConfig.editorconfig
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.AssemblyInfoInputs.cache
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.AssemblyInfo.cs
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.csproj.CoreCompileInputs.cache
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.dll
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/ref/lab04.dll
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.pdb
+/home/tito/projets/Labo04-S2/obj/Debug/net5.0/lab04.genruntimeconfig.cache

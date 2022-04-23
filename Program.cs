@@ -16,7 +16,7 @@ namespace lab04
 
             // Si vous voulez déboguer votre code vous pouvez décommenter la ligne suivante et la modifier
             // en fonction des tests que vous souhaitez faire
-            args = new string[] { "LottoMax", "3" };
+            // args = new string[] { "LottoMax", "3" };
 
             if (args.Length != 2)
             {
