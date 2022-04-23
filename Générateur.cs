@@ -15,7 +15,7 @@ namespace lab04
         static Générateur()
         {
             // On pourra enlever le Germe d'ici une fois que nos tests seraient terminés
-            Gen = new Random(Germe);
+            Gen = new Random();
         }
 
         /// <summary>
@@ -28,8 +28,8 @@ namespace lab04
         /// <returns>un nombre entier aléatoirement choisie dans l'intervalle [min, max[</returns>
         static public int Next(int min, int max)
         {
-            // à faire 
-            return 0; // instruction dont le seul but est que ça compile
+            
+            return Gen.Next(min, max +1); // instruction dont le seul but est que ça compile
         }
     }
 }

@@ -17,6 +17,12 @@ namespace lab04
             // Si vous voulez déboguer votre code vous pouvez décommenter la ligne suivante et la modifier
             // en fonction des tests que vous souhaitez faire
             // args = new string[] { "LottoMax", "3" };
+            // Console.WriteLine(Générateur.Next(10,50));
+            // for(int i = 0; i < 10; ++i )
+            // {
+            //     Console.WriteLine(Générateur.Next(10,50));
+            // }
+            // Console.WriteLine();
 
             if (args.Length != 2)
             {
