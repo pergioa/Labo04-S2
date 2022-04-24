@@ -9,24 +9,17 @@ namespace lab04
        const int NB_COMBINAISAONS = 3;
 
        public ParticipationLottoMax()
-       :base( COUT_PARTICIPATION)
+       :base( COUT_PARTICIPATION,NB_COMBINAISAONS)
        {
-           CombinaisonsParticipation = CréerParticipation();
+           CréerParticipation();
        }
 
-       private Combinaison[] CréerParticipation()
+       private void CréerParticipation()
        {
-           Combinaison[] tab = new Combinaison[NB_COMBINAISAONS];
            for(int i = 0; i < NB_COMBINAISAONS; ++ i)
            {
-               tab[i] = new LottoMax();
+               CombinaisonsParticipation[i] = new LottoMax();
            }
-           return tab;
        }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
     }
 }

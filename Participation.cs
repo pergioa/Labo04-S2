@@ -19,7 +19,6 @@ namespace lab04
                 ValiderIndice(i);
                 return CombinaisonsParticipation[i];
             }
-
             set
             {
                 ValiderIndice(i);
@@ -39,9 +38,10 @@ namespace lab04
         }
 
 
-       public Participation(float coût)
+       public Participation(float coût, int nbParticipations)
        {
            Coût = coût;
+           CombinaisonsParticipation = new Combinaison[nbParticipations];
        }
 
         public override string ToString()
@@ -52,11 +52,7 @@ namespace lab04
                 sb.Append(CombinaisonsParticipation[i].ToString());
                 sb.Append(Environment.NewLine);
             }
-            
             return sb.ToString();
         }
-
     }
-
-
 }

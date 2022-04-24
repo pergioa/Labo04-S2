@@ -16,6 +16,7 @@ namespace lab04
             public CombinaisonImpossibleÀConstruireException(string msg)
             : base(msg) { }
         }
+        
         public int NbNombres { get; private set; }
         public int Min { get; private set; }
         public int Max { get; private set; }
@@ -54,7 +55,6 @@ namespace lab04
             }
             Array.Sort(tab);
             return tab;
-
         }
 
         private bool EstAbsent(int[] tab, int dernierIndiceValide, int e)
@@ -70,11 +70,6 @@ namespace lab04
             }
             return estAbsent;
         }
-
-
-
-
-        // classe à compléter
 
         public override string ToString()
         {
