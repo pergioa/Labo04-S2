@@ -13,7 +13,7 @@ namespace lab04
        {
            CréerParticipation();
        }
-
+       
        private void CréerParticipation()
        {
            for(int i = 0; i < NB_COMBINAISAONS; ++ i)
