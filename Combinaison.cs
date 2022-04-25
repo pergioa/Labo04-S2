@@ -43,14 +43,11 @@ namespace lab04
             int e;
             for (int i = 0; i < tab.Length; ++i)
             {
-                e = Générateur.Next(Min, Max);
-                if (!EstAbsent(tab, i, e))
+                do
                 {
-                    while (!EstAbsent(tab, i, e))
-                    {
-                        e = Générateur.Next(Min, Max);
-                    }
+                     e = Générateur.Next(Min, Max);
                 }
+                while(!EstAbsent(tab, i, e));
                 tab[i] = e;
             }
             Array.Sort(tab);
