@@ -19,7 +19,7 @@ namespace lab04
                 ValiderIndice(i);
                 return CombinaisonsParticipation[i];
             }
-            set
+            protected set
             {
                 ValiderIndice(i);
                 CombinaisonsParticipation[i] = value;
