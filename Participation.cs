@@ -5,21 +5,21 @@ namespace lab04
 {
     abstract class Participation
     {
-        class IndiceEstInvalideException : Exception
+        class IndiceInvalideException : Exception
         {
-            public IndiceEstInvalideException(string msg)
+            public IndiceInvalideException(string msg)
             :base(msg){}
         }
         public float Coût { get; protected set; }
-        public Combinaison[] CombinaisonsParticipation {get; protected set;}
-        public Combinaison this[int i]
+        protected Combinaison[] CombinaisonsParticipation {get; private set;}
+        protected Combinaison this[int i]
         {
             get
             {
                 ValiderIndice(i);
                 return CombinaisonsParticipation[i];
             }
-            protected set
+            private set
             {
                 ValiderIndice(i);
                 CombinaisonsParticipation[i] = value;
@@ -29,7 +29,7 @@ namespace lab04
         private void ValiderIndice(int i)
         {
             if(!EstIndiceValide(i))
-            throw new IndiceEstInvalideException("L'indice est invalide");
+            throw new IndiceInvalideException("L'indice est invalide");
         }
 
         private bool EstIndiceValide(int indice)

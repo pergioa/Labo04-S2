@@ -28,7 +28,7 @@ namespace lab04
             if (min > max)
                 throw new MaxPlusPetitQueMinException("La borne max doit être extrictement plus grande que la borne min");
 
-            if (nbNombres > max)
+            if (nbNombres > (max - min))
                 throw new CombinaisonImpossibleÀConstruireException("La combinaison ne peut pas être consistruite, le nombre d'éléments n'est pas entre le minimum et maximum");
 
             NbNombres = nbNombres;
